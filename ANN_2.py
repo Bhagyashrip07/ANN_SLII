@@ -1,5 +1,4 @@
 import numpy as np
-import pandas as pd
 def mp_neuron(inputs, weights, threshold):
     weighted_sum = np.dot(inputs, weights)
     output = 1 if weighted_sum >= threshold else 0
